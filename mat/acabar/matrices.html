@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolvedor de Matrices</title>
+    <script src="./matrices.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <h1>Multiplicación de Matrices</h1>
+
+    <p>Ingrese los valores de las matrices:</p>
+
+    <label for="rowsA">Filas de la Matriz A:</label>
+
+    <input type="number" id="rowsA">
+
+    <label for="colsA">Columnas de la Matriz A:</label>
+
+    <input type="number" id="colsA">
+
+    <br>
+    <textarea id="matrizA" rows="5" cols="30" placeholder="Ingrese los valores de la Matriz A"></textarea>
+    <br>
+
+    <label for="rowsB">Filas de la Matriz B:</label>
+
+    <input type="number" id="rowsB">
+
+    <label for="colsB">Columnas de la Matriz B:</label>
+
+    <input type="number" id="colsB">
+
+    <br>
+    <textarea id="matrizB" rows="5" cols="30" placeholder="Ingrese los valores de la Matriz B"></textarea>
+    <br>
+
+    <button onclick="multiplicarMatrices()">Multiplicar</button>
+    <br>
+
+    <p>Resultado:</p>
+
+    <div id="resultado"></div>
+
+    
+
+</body>
+</html>
