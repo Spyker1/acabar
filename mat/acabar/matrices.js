@@ -1,3 +1,4 @@
+// Función para multiplicar dos matrices ingresadas por el usuario
 function multiplicarMatrices() {
     // Obtener los valores de las matrices del usuario
     const rowsA = parseInt(document.getElementById('rowsA').value);
@@ -42,6 +43,7 @@ function multiplicarMatrices() {
     document.getElementById('resultado').innerHTML = resultadoHTML;
 }
 
+// Función para obtener una matriz a partir de los valores ingresados por el usuario
 function obtenerMatriz(id, rows, cols) {
     const matriz = [];
     const inputText = document.getElementById(id).value.split("\n");
