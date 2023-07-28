@@ -1,6 +1,91 @@
-h1{
-    text-align: center;
-    color: crimson;
-    font-style: oblique;
+/* Estilos para los inputs */
+input[type="number"],
+textarea {
+    border: 2px solid #FF9800; /* Borde naranja llamativo por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+    transition: border-color 0.3s; /* Animación para el cambio de color del borde */
+}
 
+/* Estilos para los bordes de los inputs cuando están enfocados */
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #2196F3; /* Borde azul cuando se enfoca el input */
+}
+
+/* Estilos para los bordes de los inputs cuando se les da click */
+input[type="number"]:active,
+textarea:active {
+    border-color: #F44336; /* Borde rojo cuando se hace clic en el input */
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente de texto a Arial */
+    text-transform: uppercase; /* Aplica mayúsculas a todas las letras */
+}
+
+/* Estilos para el título h1 */
+h1 {
+    font-family: 'Verdana', sans-serif; /* Cambia la fuente de texto a Verdana */
+    font-size: 36px; /* Aumenta el tamaño de la fuente */
+    color: #FF5722; /* Cambia el color del texto a naranja */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para las etiquetas de los inputs y textareas */
+label {
+    font-family: 'Tahoma', sans-serif; /* Cambia la fuente de texto a Tahoma */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    color: #4CAF50; /* Cambia el color del texto a verde */
+}
+
+/* Estilos para los inputs */
+input[type="number"],
+textarea {
+    border: 2px solid #FF9800; /* Borde naranja llamativo por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno */
+    transition: border-color 0.3s; /* Animación para el cambio de color del borde */
+}
+
+/* Estilos para los bordes de los inputs cuando están enfocados */
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #2196F3; /* Borde azul cuando se enfoca el input */
+}
+
+/* Estilos para los bordes de los inputs cuando se les da click */
+input[type="number"]:active,
+textarea:active {
+    border-color: #F44336; /* Borde rojo cuando se hace clic en el input */
+}
+
+/* Estilos para el botón */
+button {
+    font-family: 'Georgia', serif; /* Cambia la fuente de texto a Georgia */
+    font-size: 20px; /* Aumenta el tamaño de la fuente */
+    background-color: #E91E63; /* Cambia el color de fondo del botón a rosa */
+    color: #fff; /* Cambia el color del texto a blanco */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Añade espacio interno al botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    transition: background-color 0.3s, color 0.3s; /* Agrega animación a cambios de color */
+}
+
+/* Estilos para el botón cuando el cursor está encima */
+button:hover {
+    background-color: #FFC107; /* Cambia el color de fondo del botón a amarillo */
+    color: #000; /* Cambia el color del texto a negro */
+}
+
+
+/* Estilos para el resultado */
+#resultado {
+    font-family: 'Courier New', monospace; /* Cambia la fuente de texto a Courier New */
+    font-size: 24px; /* Aumenta el tamaño de la fuente */
+    color: #9C27B0; /* Cambia el color del texto a morado */
+    text-align: center; /* Centra el texto */
+    
 }
